@@ -24,7 +24,7 @@
 .canvas {
   width: 640px;
   height: 640px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(50, 39, 155);
   display: flex;
   flex-wrap: wrap;
 }

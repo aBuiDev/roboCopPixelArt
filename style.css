@@ -1,0 +1,39 @@
+:root {
+  --metal-color: #74818a;
+  --metal-accent-color: #485761;
+  --metal-shadow-color: #3b3b3b;
+  --black-color: #000;
+  --black-accent-color: #9c9c9c;
+  --mouth-opening-color: #d67171;
+  --mouth-lips-color: #521a1a;
+  --mouth-shadow-color: #331717;
+  --metal-gloss-color: #fff;
+  --metal-gloss-accent: #c9c9c9;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--black-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.canvas {
+  width: 640px;
+  height: 640px;
+  background-color: red;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pixel {
+  width: 20px;
+  height: 20px;
+  background-color: pink;
+}
+
+.pixel.red {
+  background-color: red;
+}

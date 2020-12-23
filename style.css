@@ -8,7 +8,7 @@
   --mouth-lips-color: #521a1a;
   --mouth-shadow-color: #331717;
   --metal-gloss-color: #fff;
-  --metal-gloss-accent: #c9c9c9;
+  --metal-gloss-accent-color: #c9c9c9;
 }
 
 .container {
@@ -23,17 +23,54 @@
 .canvas {
   width: 640px;
   height: 640px;
-  background-color: red;
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex-wrap: wrap;
 }
 
 .pixel {
+  box-sizing: border-box;
+  border: 0.1px solid rgb(173, 173, 173);
   width: 20px;
   height: 20px;
-  background-color: pink;
 }
 
-.pixel.red {
-  background-color: red;
+.pixel.metal {
+  background-color: var(--metal-color);
+}
+
+.pixel.metal-accent {
+  background-color: var(--metal-accent-color);
+}
+
+.pixel.metal-shadow {
+  background-color: var(--metal-shadow-color);
+}
+
+.pixel.black {
+  background-color: var(--black-color);
+}
+
+.pixel.black-accent {
+  background-color: var(--black-accent-color);
+}
+
+.pixel.mouth-opening {
+  background-color: var(--mouth-opening-color);
+}
+
+.pixel.mouth-lips {
+  background-color: var(--mouth-lips-color);
+}
+
+.pixel.mouth-shadow {
+  background-color: var(--mouth-shadow-color);
+}
+
+.pixel.metal-gloss {
+  background-color: var(--metal-gloss-color);
+}
+
+.pixel.metal-gloss-accent {
+  background-color: var(--metal-gloss-accent-color);
 }
